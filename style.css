@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+header{
+    background-image: linear-gradient(to right, red,white);
+    height: 80px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    box-shadow: 10px 10px 10px 0 black;
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 33px;
+}
+
+.link-nav2{
+    float: right;
+}
+
+.link-nav1{
+    float: left;
+}
+
+
+.link-nav2, .link-nav1{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border: 4px dotted blue;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+
+nav{
+    margin: 15px;
+}
+
+.three:hover{
+    font-size: 20px;
+    color: lightcoral;
+}
+
+h1:hover {
+    color: brown;
+    font-size: 40px;
+}
+
+.one:hover{
+font-size:20px;
+color: brown;
+}
+
+.two:hover{
+    font-size: 20px;
+    color: coral;
+}
+
+.four:hover{
+    color: lightpink;
+    font-size: 20px;
+}
